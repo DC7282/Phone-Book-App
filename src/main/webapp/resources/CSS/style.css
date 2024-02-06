@@ -1,0 +1,145 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.dark-bg{
+			background: #444444;
+		}
+header h2{
+	margin: 0px;
+	color: white;
+	text-transform: uppercase;
+	padding: 8px;
+	margin: 8px;
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+header ul{
+	margin: 0px;
+	padding: 0px;
+	margin-right: 40px;
+}
+header ul li{
+	display: inline-block;
+	margin-right: 16px;
+	padding: 8px;
+	text-transform: capitalize;
+}
+ul li a, header a{
+	color: white;
+	text-decoration: none;
+}
+header i{
+	color: white;
+	margin-right: 8px;
+}
+ul li a:hover{
+	color: #dddddd;
+	transition: 0.3s;
+}
+.col-head{
+	display: inline-block;
+}
+.col-4{
+	width: 40%;
+}
+.col-8{
+	width: 59%;
+	text-align: right;
+}
+
+
+
+
+.form {
+    padding: 36px 16px;
+}
+.bg-cont{
+	background: rgb(100 1  50/ 10%);
+	border-radius: 1%;
+}
+.col-form{
+	width: 45%;
+	margin: 0.7%;
+	display: inline-block;
+}
+.submit{
+    background: #39b7dd;
+    text-align: center;
+    display: block;
+    width: 100%;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+    border: 0px solid;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.i-control, textarea{
+	border: 0px;
+    border-bottom: 2px solid white;
+    padding: 5px;
+    display: block;
+    width: 98%;
+    background: transparent;
+    margin: 16px 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+textarea {
+    font-weight: bold;
+    height: 70px;
+}
+
+.notice-span{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.search{
+	display: inline-block;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 1%;
+    /* text-align: right; */
+	width: 300px;
+	height: 35px;
+	border-radius: 25px;
+}
+
+.usersearch table {
+	margin-left: auto;  
+	margin-right: auto; 
+	border-collapse: collapse;
+	width: 90%;
+}
+
+.usersearch table th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.usersearch table tr:hover {
+	background-color: rgb(100 1  50/ 10%);
+}
+	
+.usersearch table th{
+	background-color: rgb(100 1  50/ 10%);
+}
+
+a{
+	text-decoration: none;
+}
+.fa-trash-can{
+	color: red;
+}
+.delete{
+	color: red;
+}
+.update{
+	color: blue;
+}
